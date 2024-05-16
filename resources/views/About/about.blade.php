@@ -96,5 +96,6 @@
             </div>
         </div>
     </div>
+    <a href="#back-to-top" id="back-to-top-btn"><i class="fa-solid fa-up-long"></i></a>
     @include('layout.footer')
 @endsection

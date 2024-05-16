@@ -3,7 +3,7 @@
 @section('content')
 
 @include('layout.header')
-
+<a name="back-to-top"></a>
     <div class="container-fluid   p-0">
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -154,6 +154,7 @@
             </div>
         </div>
     </div>
+    <a href="#back-to-top" id="back-to-top-btn"><i class="fa-solid fa-up-long"></i></a>
 
 @include('layout.footer')
 @endsection

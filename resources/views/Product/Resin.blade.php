@@ -1,6 +1,8 @@
 @extends('layout.master')
 @section('title', 'Resin Bonded')
 @section('content')
+<a name="back-to-top"></a>
+
     @include('layout.header')
     <div class="container-fluid  mt-3">
         <div class="row  p1-img">
@@ -95,5 +97,6 @@
 
         </div>
     </div>
+    <a href="#back-to-top" id="back-to-top-btn"><i class="fa-solid fa-up-long"></i></a>
     @include('layout.footer')
 @endsection

@@ -21,12 +21,7 @@
 
 
     @yield('content')
-    {{--  @yield('contact')
-    @yield('home')
-    @yield('product')
-    @yield('Resin')
-    @yield('Hybrid')
-    @yield('Vitrified')  --}}
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
@@ -35,7 +30,6 @@
   offset: 220,
   duration: 900
 });
-
     </script>
     <script src="{{ asset('script/script.js') }}"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

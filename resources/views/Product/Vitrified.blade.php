@@ -1,6 +1,8 @@
 @extends('layout.master')
 @section('title','Vitrified bonded')
 @section('content')
+<a name="back-to-top"></a>
+
     @include('layout.header')
     <div class="container-fluid  mt-3">
         <div class="row  p1-img">
@@ -119,61 +121,9 @@
                     </div>
 
                 </div>
-                {{--  <div class="row app">
-                    <div class="col-md-6 di mt-5 text-center text-justify" data-aos="fade-right">
-                        <h3 class="diamond ml-5" style="color: #ff6600;">DIAMOND</h3>
-                        <ul class="inline-list text-justify mt-2" style="color: rgb(50, 28, 85);">
-                            <li>
-                                PCD, PCBN
-                            </li>
-                            <li>
-                                Natural Diamond, CVD,
-                            </li>
-                            <li>
-                                Sapphire, Ruby Tungsten Carbide,
-                            </li>
-                            <li>Tungsten carbide composite material</li>
-                            <li>
-                                Ceramic, Cermet
-                            </li>
-                            <li>Glass, Quartz</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 di di-vertical  mt-5 text-center text-justify" data-aos="fade-left">
-                        <h3 class="cbnp3 ml-5">CBN</h3>
-                        <ul class="inline-list text-justify mt-2 p3-list" style="color: rgb(50, 28, 85);">
-                            <li>
-                                High Speed Steel-HSS
-                            </li>
-                            <li>
-                                Hardened Carbon Steel
-                            </li>
-                            <li>
-                                Hardened Stainless Steels
-                            </li>
-                            <li>
-                                Alloy Steels
-                            </li>
-                            <li>
-                                Mould & Dies Steel
-                            </li>
-                            <li>
-                                Aerospaces Alloys
-                            </li>
-                            <li>
-                                Automotive parts grinding
-                            </li>
-                            <li>
-                                Bearing Industries
-                            </li>
-                            <li>
-                                Camshafts, Crankshafts
-                            </li>
-                        </ul>
-                    </div>
-                </div>  --}}
+               
             </div>
         </div>
-
+        <a href="#back-to-top" id="back-to-top-btn"><i class="fa-solid fa-up-long"></i></a>
     @include('layout.footer')
 @endsection

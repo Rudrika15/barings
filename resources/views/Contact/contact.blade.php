@@ -3,6 +3,8 @@
 
 @section('title','Contact')
 @section('content')
+<a name="back-to-top"></a>
+
     @include('layout.header')
     <div class="container-fluid   p-0">
         <div class="page-header">
@@ -95,5 +97,6 @@
             </div>
         </div>
     </div>
+    <a href="#back-to-top" id="back-to-top-btn"><i class="fa-solid fa-up-long"></i></a>
     @include('layout.footer')
 @endsection

@@ -2,6 +2,7 @@
 @section('title','Product')
 @section('content')
 @include('layout.header')
+<a name="back-to-top"></a>
 
 <div class="page-header">
     <div class="container">
@@ -784,5 +785,6 @@
         </div>
     </div>
 </div>
+<a href="#back-to-top" id="back-to-top-btn"><i class="fa-solid fa-up-long"></i></a>
 @include('layout.footer')
 @endsection
