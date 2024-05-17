@@ -33,7 +33,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="footer-link">
                         <h2>Useful Pages</h2>
-                        <a href="{{route('home')}}">Home</a>
+                        <a href="{{route('home.index')}}">Home</a>
                         <a href="{{route('about')}}">About Us</a>
                         <div class="footer-product-dropdown">
                             <a class="footer-product" href="{{route('product')}}">Products</a>

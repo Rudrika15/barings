@@ -6,8 +6,10 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
-Route::redirect('/', '/home');
-Route::get('/home',[HomeController::class,'Home'])->name('home');
+
+Route::get('/',[HomeController::class,'Home'])->name('home.index');
+
+
 Route::get('/about',[AboutController::class,'About'])->name('about');
 Route::get('/contact',[ContactController::class,'Contact'])->name('contact');
 Route::post('/mail',[ContactController::class,'sendmail'])->name('mail');

@@ -10,7 +10,7 @@
 
         </button>
            <div class="res-logo">
-            <a class="nav-item  text-white logo" href="{{route('home')}}"><img src="{{ asset('img/logo.png
+            <a class="nav-item  text-white logo" href="{{route('home.index')}}"><img src="{{ asset('img/logo.png
 
 
                 ') }}" alt="image"
@@ -19,9 +19,9 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
             <div class="navbar-nav d-flex justify-content-start">
-                <a class="nav-item  text-white logo" href="{{route('home')}}"><img src="{{ asset('img/logo.png') }}" alt="image"
+                <a class="nav-item  text-white logo" href="{{route('home.index')}}"><img src="{{ asset('img/logo.png') }}" alt="image"
                         style="width: 100px;"></a>
-                <a class="nav-item nav-link text-white" href="{{route('home')}}">Home</a>
+                <a class="nav-item nav-link text-white" href="{{route('home.index')}}">Home</a>
                 <a class="nav-item nav-link text-white" href="{{route('about')}}">About us</a>
                 <!-- <a class="nav-item nav-link text-white" href="{{route('product')}}">Products</a> -->
                 <!-- <div class="nav-item dropdown">

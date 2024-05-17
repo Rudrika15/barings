@@ -14,7 +14,7 @@
                         <h2>Contact Us</h2>
                     </div>
                     <div class="col-12">
-                        <a href="{{ route('home') }}">Home</a>
+                        <a href="{{ route('home.index') }}">Home</a>
                         <a href="{{ route('contact') }}">Contact Us</a>
                     </div>
                 </div>
