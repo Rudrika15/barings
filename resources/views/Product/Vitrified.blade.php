@@ -6,16 +6,16 @@
     @include('layout.header')
     <div class="container-fluid  mt-3">
         <div class="row  p1-img">
-            <img src="{{ asset('img/vitrified.jpg') }}" alt="product3 Image" class="mt-3">
+            <img src="{{ asset('img/vitrified.jpg') }}" alt="product3 Image" class="mt-5">
         </div>
     </div>
-        <div class="hr">
+        {{--  <div class="hr">
             <hr>
-        </div>
+        </div>  --}}
         <div class="justify-content-center">
             <div class="container-fluid  p1-text">
 
-                <h1 class="text-center  mt-4" style="color: #ff6600;" data-aos="fade-up">
+                <h1 class="text-center  mt-4 product-heading"  data-aos="fade-up">
                     <b>
                         <i>
                             VITRIFIED BONDED DIAMOND & CBN
@@ -25,7 +25,7 @@
                 </h1>
             </div>
             <div class="container-fluid p1-text">
-                <p class="text-justify  mt-3" style="color: rgb(50, 28, 85);" data-aos="fade-up">
+                <p class="text-justify  mt-3 product-text "  data-aos="fade-up">
                     MICRO has successfully developed Vitrified bond (Ceramic bond) to meet a large-scale demand of special
                     bond
                     for PCD & PCBN inserts grinding
@@ -39,13 +39,13 @@
                 </p>
             </div>
 
-            <div class="hr">
+            {{--  <div class="hr">
                 <hr>
-            </div>
-            <div class="container-fluid" data-aos="fade-up">
+            </div>  --}}
+            <div class="container-fluid " data-aos="fade-up">
                 <div class="adv d-flex justify-content-center">
                     <div class="box mt-3 ">
-                        <h1 class="text-center ml-0 mt-1  font-weight-bold" style="color:rgb(50, 28, 85);"
+                        <h1 class="text-center ml-0 mt-5  font-weight-bold product-app"
                             data-aos="fade-up">Grinding Application
                         </h1>
                     </div>
@@ -53,13 +53,13 @@
             </div>
             <div class="container-fluid" data-aos="fade-up">
                 <div class="col-md-12 d-flex  mt-5" style="justify-content: space-evenly; ">
-                    <div class="card " style=" width:30%; background-color:#ff6600;  ">
+                    <div class="card card-box" >
 
                         <div class="card-body">
 
-                            <h3 class="card-title text-center  font-weight-bold" style="color:rgb(50, 28, 85);">Dimond</h3>
+                            <h3 class="card-title text-center  font-weight-bold product-app-sub" >Dimond</h3>
                             <div class="d-flex justify-content-center">
-                            <ul class="mt-4" style="color:rgb(50, 28, 85);">
+                            <ul class="mt-4" style="color:var(--smheading);">
                                 <li>
                                     PCD, PCBN
                                 </li>
@@ -82,12 +82,12 @@
                         </div>
                     </div>
 
-                    <div class="card" style="width:30%; background-color:#ff6600; ">
+                    <div class="card card-box" >
 
                         <div class="card-body">
-                            <h3 class="card-title text-center  font-weight-bold " style="color:rgb(50, 28, 85);">CBN</h5>
+                            <h3 class="card-title text-center  font-weight-bold product-app-sub " >CBN</h5>
                                 <div class="d-flex justify-content-center">
-                            <ul class="mt-4" style="color:rgb(50, 28, 85);">
+                            <ul class="mt-4" style="color:var(--smheading);">
                                 <li>
                                     High Speed Steel-HSS
                                 </li>
@@ -121,7 +121,7 @@
                     </div>
 
                 </div>
-               
+
             </div>
         </div>
         <a href="#back-to-top" id="back-to-top-btn"><i class="fa-solid fa-up-long"></i></a>

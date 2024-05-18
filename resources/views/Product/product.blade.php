@@ -4,7 +4,7 @@
 @include('layout.header')
 <a name="back-to-top"></a>
 
-<div class="page-header">
+<div class="page-header" style="background-image: url('img/c1.jpg');" >
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -20,9 +20,9 @@
     </div>
 </div>
 
-<div class="hr">
+{{--  <div class="hr">
     <hr>
-</div>
+</div>  --}}
 <div class="product" >
     <div class="container">
         <div class="section-header text-center">
@@ -74,9 +74,9 @@
     </div>
 </div>
 
-<div class="hr">
+{{--  <div class="hr">
     <hr>
-</div>
+</div>  --}}
 <div class="text" data-aos="fade-down">
     <div class="shape text-center mt-5 ">
         <h1 class="font-weight-bold ">
@@ -109,9 +109,9 @@
     <button class="next btn btn-black " onclick="moveSlide(1)">&#10095;</button>
 </div>
 
-<div class="hr mt-5">
+{{--  <div class="hr mt-5">
     <hr>
-</div>
+</div>  --}}
 
 <div class="text" data-aos="fade-up" >
     <div class="shape text-center mt-5 ">

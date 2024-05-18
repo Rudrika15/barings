@@ -3,10 +3,62 @@
 @section('content')
     @include('layout.header')
     <div class="container-fluid   p-0">
+
+    {{--  <img src="{{ asset('img/c2.jpg') }}" style="height:300px; widht:100px;" alt="">  --}}
+
+
         <a name="back-to-top"></a>
 
+        <div class="page-header" style="background-image: url('img/about.jpeg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>About Us</h2>
+                    </div>
+                    <div class="col-12">
+                        <a href="{{ route('home.index') }}">Home</a>
+                        <a href="{{ route('about') }}">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div class="page-header">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{--
+        <div class="page-header" style="">
+
             <div class="container">
                 <div class="row">
                     <div class="col-12" >
@@ -18,11 +70,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>  --}}
 
-        <div class="hr">
+        {{--  <div class="hr">
             <hr>
-        </div>
+        </div>  --}}
 
         <div class="about">
             <div class="container">
@@ -63,12 +115,12 @@
             <div class="container vision mt-3" data-aos="fade-in">
                 <div class="row vision-img"   >
                     <div class="col-md-6 text text-center">
-                        <h1 class="mt-5" style="color: #ff6600;" >
+                        <h1 class="mt-5" style="color: var(--heading);" >
                             <b>
                                 <i>Our Vision</i>
                             </b>
                         </h1>
-                        <h4 class="mt-2 text-justify" style="color:rgb(50, 28, 85);">To be a market leader in
+                        <h4 class="mt-2 text-justify" style="color:var(--smheading);">To be a market leader in
                             DIAMOND and CBN wheels industry.</h4>
                     </div>
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
@@ -80,12 +132,12 @@
             <div class="container vision mt-5" data-aos="fade-in"  >
                 <div class="row vision-img">
                     <div class="col-md-6 text order-md-2 text-center">
-                        <h1 class="mt-5" style="color: #ff6600;">
+                        <h1 class="mt-5" style="color: var(--heading);">
                             <b>
                                 <i class="mission">Our Mission</i>
                             </b>
                         </h1>
-                        <h4 class="mt-2 text-justify mission" style="color:rgb(50, 28, 85);">
+                        <h4 class="mt-2 text-justify mission" style="color:var(--smheading);">
                             <b>MICRO</b> likes to become a key partner of your success.
                         </h4>
                     </div>

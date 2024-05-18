@@ -6,15 +6,15 @@
     @include('layout.header')
     <div class="container-fluid  mt-3">
         <div class="row  p1-img">
-            <img src="{{ asset('img/hybrid.jpg') }}" alt="product2Image" class="mt-3">
+            <img src="{{ asset('img/hybrid.jpg') }}" alt="product2Image" class="mt-5">
         </div>
     </div>
-    <div class="hr">
+    {{--  <div class="hr">
         <hr>
-    </div>
+    </div>  --}}
     <div class="container-fluid p1-text">
 
-        <h1 class="text-center  mt-4" style="color: #ff6600;" data-aos="fade-up">
+        <h1 class="text-center  mt-4 product-heading" data-aos="fade-up">
             <b>
                 <i>
                     HYBRID BONDED DIAMOND & CBN
@@ -24,7 +24,7 @@
         </h1>
     </div>
     <div class="container-fluid p1-text">
-        <p class="text-justify  mt-3" style="color: rgb(50, 28, 85);" data-aos="fade-up">
+        <p class="text-justify  mt-3 product-text"  data-aos="fade-up">
             In cutting tools industry, Fluting, Gashing and Relief grinding process requires higher profile consistency and
             high edge quality. Fluting is most critical, time consuming and cost intensive operation which increases overall
             tool delivery cycles.
@@ -41,14 +41,14 @@
         </p>
 
     </div>
-    <div class="hr">
+    {{--  <div class="hr">
         <hr>
-    </div>
+    </div>  --}}
 
-    <div class="container-fluid" data-aos="fade-up" >
+    <div class="container-fluid " data-aos="fade-up" >
         <div class="adv d-flex justify-content-center">
             <div class="box-p2 mt-3 ">
-                <h1 class="text-center  mt-1  font-weight-bold" style="color: #ff6600;">
+                <h1 class="text-center  mt-3  font-weight-bold product-app" >
                     Advantages of hybrid bond Diamond abd CBN
                     wheels
                 </h1>
@@ -56,11 +56,11 @@
         </div>
     </div>
     <div class="container-fluid d-flex justify-content-center" data-aos="fade-up">
-        <div class="card mt-3 " style=" width:80%; background-color:#ff6600;  ">
+        <div class="card mt-3 card-box" style=" width:80%; ">
 
             <div class="card-body">
 
-                <ul class="mt-2" style="color:rgb(50, 28, 85);">
+                <ul class="mt-2" style="color:var(--smheading);">
                     <li>
                         Fully utilizing grinding wheel and machine capabilities
                     </li>

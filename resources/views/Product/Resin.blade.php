@@ -7,15 +7,15 @@
     <div class="container-fluid  mt-3">
         <div class="row  p1-img">
 
-            <img src=" {{ asset('img/product1.jpg') }}" alt="Vision Image" class="mt-3">
+            <img src=" {{ asset('img/product1.jpg') }}" alt="Vision Image" class="mt-5">
         </div>
     </div>
-    <div class="hr">
+    {{--  <div class="hr">
         <hr>
-    </div>
+    </div>  --}}
     <div class="container-fluid p1-text">
 
-        <h1 class="text-center  mt-4" style="color: #ff6600;">
+        <h1 class="text-center  mt-4 product-heading" data-aos="fade-up" >
             <b>
                 <i>
                     RESIN BONDED DIAMOND & CBN
@@ -24,8 +24,8 @@
             </b>
         </h1>
     </div>
-    <div class="container-fluid  ">
-        <p class="text-justify p1-text  mt-3" style="color: rgb(50, 28, 85);">
+    <div class="container-fluid  " data-aos="fade-up">
+        <p class="text-justify p1-text product-text mt-3" >
             Resin bond ideally used for dry and wet
             grinding. It has excellent grinding ability, surface finish and minimal chipping. Resin bond
             products have the features of good self-sharpening, sharp cutting, High removal rates, high
@@ -36,26 +36,26 @@
         </p>
 
     </div>
-    <div class="hr">
+    {{--  <div class="hr">
         <hr>
-    </div>
+    </div>  --}}
 
-    <div class="container-fluid mt-4">
+    <div class="container-fluid mt-4" data-aos="fade-up">
         <div class="adv d-flex justify-content-center">
             <div class="box mt-3 ">
-                <h1 class="text-center ml-0 mt-1 font-weight-bold" style="color: rgb(50, 28, 85);">Grinding Application</h1>
+                <h1 class="text-center ml-0 mt-1 font-weight-bold product-app">Grinding Application</h1>
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12 d-flex  mt-5" style="justify-content: space-evenly; " data-aos="fade-up">
-                <div class="card " style=" width:40%; background-color:#ff6600;  ">
+            <div class="col-md-12 d-flex  mt-5" style="justify-content: space-evenly;  " data-aos="fade-up">
+                <div class="card card-box ">
 
-                    <div class="card-body">
-                        <h3 class="card-title text-center  font-weight-bold" style="color:rgb(50, 28, 85);">Dimond</h3>
-                        <div class="d-flex  justify-content-center">
-                        <ul class="mt-3" style="color:rgb(50, 28, 85);">
+                    <div class="card-body ">
+                        <h3 class="card-title text-center  font-weight-bold product-app-sub" >Dimond</h3>
+                        <div class="d-flex  justify-content-center" >
+                        <ul class="mt-3" style="color:var(--smheading);">
                             <li class="child-li">Tungsten carbide</li>
                             <li class="child-li">Carbide/steel combination</li>
                             <li class="child-li">Ceramics and tile grinding</li>
@@ -68,12 +68,12 @@
                     </div>
                 </div>
 
-                <div class="card" style="width:40%; background-color:#ff6600; ">
+                <div class="card card-box" >
 
                     <div class="card-body">
-                        <h3 class="card-title text-center  font-weight-bold " style="color:rgb(50, 28, 85);">CBN</h5>
+                        <h3 class="card-title text-center  font-weight-bold product-app-sub">CBN</h5>
                             <div class="d-flex  justify-content-center">
-                        <ul class="mt-3" style="color:rgb(50, 28, 85);">
+                        <ul class="mt-3" style="color:var(--smheading);">
                             <li class="child-li">
                                 High Speed Steel-HSS
                             </li>

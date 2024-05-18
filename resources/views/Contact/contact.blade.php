@@ -7,7 +7,7 @@
 
     @include('layout.header')
     <div class="container-fluid   p-0">
-        <div class="page-header">
+        <div class="page-header" style="background-image: url('img/contact.jpg'); background-attachment:fixed;">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -21,15 +21,15 @@
             </div>
         </div>
         <!-- Page Header End -->
-        <div class="hr">
+        {{--  <div class="hr">
             <hr>
-        </div>
+        </div>  --}}
 
 
 
         <div class="contact mt-0 ">
             <div class="container">
-                <div class="section-header mt-3  text-center">
+                <div class="section-header mt-32 text-center">
                     <p>Get In Touch</p>
                     <h1 class="mb-4">For Any Query</h1>
                 </div>
@@ -41,22 +41,21 @@
                                 <div class="contact-text">
 
                                     <h2>Location</h2>
-                                    <p class="text-justify">Plot NO. 216-A, Nr. Laxmi Rolling Mill,Chitra G.I.D.C. Main
-                                        Road, Bhavnagar-364004,Gujarat,INDIA.</p>
+                                    <p >A/22, Shreenath Park, Wonder Point,C.T.M,Ahmedabad-380026. Guj. (INDIA).</p>
                                 </div>
                             </div>
                             <div class="contact-item">
                                 <i class="flaticon-call"></i>
                                 <div class="contact-text">
                                     <h2>Phone</h2>
-                                    <p>+91 7284836363 / 9979896363</p>
+                                    <p>+91 7874747616</p>
                                 </div>
                             </div>
                             <div class="contact-item">
                                 <i class="flaticon-send-mail"></i>
                                 <div class="contact-text">
                                     <h2>Email</h2>
-                                    <p>info@microproducts.co.in <br> sales@microproducts.co.in </p>
+                                    <p> sales@diamondandcbnwheels.in <br>www.diamondandcbnwheels.in  </p>
                                 </div>
                             </div>
                         </div>

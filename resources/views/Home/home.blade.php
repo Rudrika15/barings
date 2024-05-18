@@ -4,43 +4,43 @@
 
 @include('layout.header')
 <a name="back-to-top"></a>
-    <div class="container-fluid   p-0">
-
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
+    <div class="container-fluid  m-0 p-0">
+        {{--  data-ride="carousel"  --}}
+        <div id="carouselExampleIndicators" class="carousel slide" >
+            {{--  <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
+            </ol>  --}}
             <div class="carousel-inner">
                 <div class="carousel-item active">
 
-                    <img class="d-block " src="{{ asset('img/carousel1.jpg') }}" alt="First slide">
-                    <div class="carousel-caption">
-                        <h1 class="animated fadeInLeft">MICRO DIAMOND & CBN WHEELS</h1>
+                    <img class="d-block " src="{{ asset('img/c2.jpg') }}" style="opacity: 0.9;" alt="First slide">
+                    <div class="carousel-caption ">
+                        <h1 class="animated fadeInLeft  mt-5">MICRO DIAMOND & CBN WHEELS</h1>
                         <a class="btn animated fadeInUp" href="{{route('contact')}}">Contact Us</a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block " src="{{ asset('img/carousel2.jpg') }}" alt="Second slide">
+                    <img class="d-block " src="{{ asset('img/c2.jpg') }}" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block " src="{{ asset('img/carouel3.jpg') }}" alt="Third slide">
+                    <img class="d-block " src="{{ asset('img/c3.jpg') }}" alt="Third slide">
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            {{--  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
-            </a>
+            </a>  --}}
         </div>
 
-        <div class="hr">
+        {{--  <div class="hr">
             <hr>
-        </div>
+        </div>  --}}
         <div class="about" data-aos="fade-up">
             <div class="container">
                 <div class="row align-items-center">
@@ -80,14 +80,14 @@
         <!-- About End -->
 
         <!-- product -->
-        <div class="hr">
+        {{--  <div class="hr">
             <hr>
-        </div>
+        </div>  --}}
         <div class="product" data-aos="fade-up">
             <div class="container">
                 <div class="section-header text-center">
                     <h5><b>Our Products</b></h5>
-                    <h2><b>We Provide Products</b></h2>
+                    <h2 ><b>We Provide Products</b></h2>
                 </div>
                 <div class="row mt-3">
                     <div class="col-lg-4 col-md-6  fadeInUp">
