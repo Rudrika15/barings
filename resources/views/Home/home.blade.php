@@ -17,8 +17,8 @@
 
                     <img class="d-block " src="{{ asset('img/c2.jpg') }}" style="opacity: 0.9;" alt="First slide">
                     <div class="carousel-caption ">
-                        <h1 class="animated fadeInLeft  mt-5">MICRO DIAMOND & CBN WHEELS</h1>
-                        <a class="btn animated fadeInUp" href="{{route('contact')}}">Contact Us</a>
+                        <h1 class="  mt-5" data-aos="fade-left">MICRO DIAMOND & CBN WHEELS</h1>
+                        <a class="btn" data-aos="fade-up" href="{{route('contact')}}">Contact Us</a>
                     </div>
                 </div>
                 <div class="carousel-item">
