@@ -10,14 +10,7 @@
                         <p><i class="fa fa-map-marker-alt"></i>A/22, Shreenath Park, Wonder Point,C.T.M,Ahmedabad-380026. Guj. (INDIA).</p>
 
                         </p>
-                        <div class="footer-social">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i
-                                    class="fab fa-youtube"></i></a>
-                        </div>
+                       
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-5">

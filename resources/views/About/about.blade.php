@@ -25,37 +25,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {{--
         <div class="page-header" style="">
 
@@ -80,11 +49,11 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5 col-md-6">
-                        <div class="about-img">
+                        <div class="about-img" data-aos="fade-up">
                             <img src="{{ asset('img/about.jpg') }}" alt="Image">
                         </div>
                     </div>
-                    <div class="col-lg-7 col-md-6">
+                    <div class="col-lg-7 col-md-6" data-aos="fade-up">
                         <div class="section-header text-left">
                             <h5>
                                 <b>Welcome to</b>

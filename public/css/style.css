@@ -268,9 +268,9 @@ a:focus {
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 35px;
-    animation-name: fadeInFromLeft;
+    /* animation-name: fadeInFromLeft;
     animation-duration: 1.5s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
 
 .carousel .carousel-caption .btn {
@@ -1290,9 +1290,19 @@ a:focus {
     z-index: 1;
   }
 
+  .next:hover{
+
+    color: var(--white);
+  }
+  .prev:hover{
+
+    color: var(--white);
+  }
+
   .prev {
     left: 0;
   }
+
 
   .next {
     right: 0;
@@ -1310,6 +1320,8 @@ a:focus {
     padding: 8px;
 
 } */
+
+
 
 
 .custom-table-border {
@@ -1510,4 +1522,10 @@ a:focus {
 
 .card-box{
     width:40%; background-color:var(--heading);box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; border-radius:20px ;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 1600%;
 }

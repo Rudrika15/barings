@@ -2,6 +2,8 @@
 @section('title','Product')
 @section('content')
 @include('layout.header')
+
+
 <a name="back-to-top"></a>
 
 <div class="page-header" style="background-image: url('img/c1.jpg');" >
@@ -85,28 +87,38 @@
         </h1>
     </div>
 </div>
-<div class="slider-container " data-aos="fade-up">
+<div class="slider-container " data-aos="fade-up" >
     <div class="slider mt-5" id="slider">
-        <img src="{{ asset('img/11a2.jpg') }}" alt="Image 1">
-        <img src="{{ asset('img/11v2.jpg') }}" alt="Image 2">
-        <img src="{{ asset('img/11v9.jpg') }}" alt="Image 3">
-        <img src="{{ asset('img/12a2.jpg') }}" alt="Image 4">
-        <img src="{{ asset('img/12a2s.jpg') }}" alt="Image 5">
-        <img src="{{ asset('img/12v9.jpg') }}" alt="Image 6">
-        <img src="{{ asset('img/15v9.jpg') }}" alt="Image 7">
-        <img src="{{ asset('img/1a1.jpg') }}" alt="Image 8">
-        <img src="{{ asset('img/1ee1.jpg') }}" alt="Image 9">
-        <img src="{{ asset('img/1ff1.jpg') }}" alt="Image 10">
-        <img src="{{ asset('img/1v1.jpg') }}" alt="Image 11">
-        <img src="{{ asset('img/4a2.jpg') }}" alt="Image 12">
-        <img src="{{ asset('img/4et9.jpg') }}" alt="Image 13">
-        <img src="{{ asset('img/6a2.jpg') }}" alt="Image 14">
-        <img src="{{ asset('img/6a9.jpg') }}" alt="Image 15">
-        <img src="{{ asset('img/9a3.jpg') }}" alt="Image 16">
+
+        <img src="{{ asset('img/1a1.png') }}" alt="Image 1">
+        <img src="{{ asset('img/1v1-v.jpg') }}" alt="Image 2">
+        <img src="{{ asset('img/1ee1.jpg') }}" alt="Image 3">
+        <img src="{{ asset('img/1ff1.jpg') }}" alt="Image 4">
+        <img src="{{ asset('img/4a2.jpg') }}" alt="Image 5">
+        <img src="{{ asset('img/6a2.jpg') }}" alt="Image 6">
+        <img src="{{ asset('img/6a9.jpg') }}" alt="Image 7">
+        <img src="{{ asset('img/11a2.jpg') }}" alt="Image 8">
+        <img src="{{ asset('img/11v9.jpg') }}" alt="Image 9">
+        <img src="{{ asset('img/12a2-20.jpg') }}" alt="Image 10">
+        <img src="{{ asset('img/12a2-45.jpg') }}" alt="Image 11">
+        <img src="{{ asset('img/15v9.jpg') }}" alt="Image 12">
+        <img src="{{ asset('img/14f1.jpg') }}" alt="Image 13">
+        <img src="{{ asset('img/1a1r.jpg') }}" alt="Image 14">
+        <img src="{{ asset('img/1a8w.jpg') }}" alt="Image 15">
+        <img src="{{ asset('img/9a3h.jpg') }}" alt="Image 16">
+        <img src="{{ asset('img/4b19.jpg') }}" alt="Image 17">
+        <img src="{{ asset('img/6a2c.jpg') }}" alt="Image 18">
+        <img src="{{ asset('img/hh1.jpg') }}" alt="Image 19">
+        <img src="{{ asset('img/15a2.jpg') }}" alt="Image 20">
+        <img src="{{ asset('img/2a2t.jpg') }}" alt="Image 20">
+
+
+
+
 
     </div>
-    <button class="prev btn btn-black " onclick="moveSlide(-1)">&#10094;</button>
-    <button class="next btn btn-black " onclick="moveSlide(1)">&#10095;</button>
+    <button class="prev btn " onclick="moveSlide(-1)"><i class="fa-solid fa-angle-left"></i></button>
+    <button class="next btn " onclick="moveSlide(1)"><i class="fa-solid fa-angle-right"></i></button>
 </div>
 
 {{--  <div class="hr mt-5">
